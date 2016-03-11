@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .box1 {
 	background: url(../images/slider/slide1.jpg) no-repeat center fixed;
 	color: white;
@@ -20,3 +21,53 @@
 	color: white;
 	height: 350px;
 }
+=======
+/*navbar podesavanja*/
+
+.navbar-fixed-top {
+    min-height: 50px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 60px;
+}
+
+.logo img{
+	margin-bottom:-35px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+	background-color: #222;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover{
+	background-color: red;
+}
+
+.navbar{
+	opacity: 0.8;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color:#fff;
+    /*color:red;   samo slova crvena na hover*/
+    background-color: red;
+   -moz-border-radius-topleft: 10px;
+   -moz-border-radius-topright: 10px;
+   -moz-border-radius-bottomright: 0px;
+   -moz-border-radius-bottomleft: 0px;
+   -webkit-border-radius: 10px 10px 10px1 0px;
+   border-radius: 10px 10px 10px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: #fff;
+}
+>>>>>>> origin/master
