@@ -1,0 +1,22 @@
+.box1 {
+	background: url(../images/slider/slide1.jpg) no-repeat center fixed;
+	color: white;
+	height: 350px;
+}
+
+.box1:hover, .box2:hover, .box3:hover {
+	background-color: #E00000;
+	background-blend-mode: overlay;
+}
+
+.box2 {
+	background: url(../images/slider/slide2.jpg) no-repeat center fixed;
+	color: white;
+	height: 350px;
+}
+
+.box3 {
+	background: url(../images/slider/slide3.jpg) no-repeat center fixed;
+	color: white;
+	height: 350px;
+}
