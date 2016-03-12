@@ -3,7 +3,10 @@ body {
 	background: url(../images/back1.jpg) fixed repeat ;
 }
 
-
+footer {
+  width: 100%;
+  background-color: black;
+}
 .box1 h2, .box2 h2, .box3 h2 {
 	background: red;
     margin-right: 55%;
@@ -81,7 +84,6 @@ body {
 	opacity: 0.9;
 }
 
-
 .navbar-fixed-top {
     min-height: 50px;
 }
@@ -139,8 +141,10 @@ body {
 
 /** odavde krece css za footer  **/
 .footer{
-      background: black;
-        width: 100%;
+    background: black;
+   
+    width: 100%;
+
 }
 .footer ul, h4{
   color:rgb(183, 183, 183);
@@ -167,10 +171,19 @@ body {
      
 }
 .mapa{
-    padding-left: 15px;
+    padding-left: 10px;
 
 }
 
+.naslovfooter {
+	  margin-left: 33%;
 }
 
+.pull-right {
+    margin-top: -45px;
+    margin-right: 10px;
+}
+
+.container {
+  margin-bottom: 0px;
 }
