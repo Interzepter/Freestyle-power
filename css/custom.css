@@ -1,28 +1,86 @@
-<<<<<<< HEAD
-.box1 {
-	background: url(../images/slider/slide1.jpg) no-repeat center fixed;
-	color: white;
-	height: 350px;
+
+body {
+	background: url(../images/back1.jpg) fixed repeat ;
 }
 
-.box1:hover, .box2:hover, .box3:hover {
-	background-color: #E00000;
-	background-blend-mode: overlay;
+
+.box1 h2, .box2 h2, .box3 h2 {
+	background: red;
+    margin-right: 55%;
+    border-radius: 5px 5px 5px 5px;
+    color: black;
+    opacity: 0.7;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box1 p, .box2 p, .box3 p {
+	margin-top: 60%;
+	font-size: 180%;
+	font-weight: bold;
+}
+
+.box1, .box2, .box3 {
+   -moz-border-radius-topleft: 10px;
+   -moz-border-radius-topright: 10px;
+   -moz-border-radius-bottomright: 0px;
+   -moz-border-radius-bottomleft: 0px;
+   -webkit-border-radius: 10px 10px 10px 0px;
+   border-radius: 10px 10px 10px 10px;
+   max-height: 350px;
+}
+
+.box1 {
+	background: url(../images/box/1.jpg) ;
+	color: white;
+	height: 450px;
 }
 
 .box2 {
-	background: url(../images/slider/slide2.jpg) no-repeat center fixed;
+	background: url(../images/box/2.jpg) ;
 	color: white;
-	height: 350px;
+	height: 450px;
 }
 
 .box3 {
-	background: url(../images/slider/slide3.jpg) no-repeat center fixed;
+	background: url(../images/box/3.jpg) ;
 	color: white;
-	height: 350px;
+	height: 450px;
 }
-=======
-/*navbar podesavanja*/
+
+.box1:hover, .box2:hover, .box3:hover {
+
+
+	background-color: #E00000;
+	background-blend-mode: multiply;
+	color: white;
+	font-weight: bolder;
+}
+
+
+
+.box1:hover > h2, .box2:hover > h2, .box3:hover > h2 {
+	background: black;
+    margin-right: 50%;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.box1:hover > p, .box2:hover > p, .box3:hover > p {
+	background: black;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-weight: bolder;
+    opacity: 0.7;
+}
+
+.featurette {
+	background-color: black;
+	opacity: 0.9;
+}
+
 
 .navbar-fixed-top {
     min-height: 50px;
@@ -38,19 +96,27 @@
 	margin-bottom:-35px;
 }
 
+.nav {
+	font-weight: bolder;
+	font-size: large;
+}
+
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     color: #fff;
     
 }
 
 .navbar-inverse .navbar-nav>.active>a{
-	background-color: #222;
+	background-color: black;
 }
 
 .navbar-inverse .navbar-nav>.active>a:hover{
 	background-color: red;
 }
 
+.navbar-inverse {
+	background-color: black;
+}
 .navbar{
 	opacity: 0.8;
 }
@@ -70,4 +136,4 @@
 .navbar-inverse .navbar-nav>li>a{
 	color: #fff;
 }
->>>>>>> origin/master
+
