@@ -1,4 +1,10 @@
+body {
+  padding-top: 60px;
+}
 
-.galerry-wrapper{
-	margin-top: 100px;
+@media (max-width: 769px) {
+
+    body {
+      padding-top: 50px;
+  }
 }
