@@ -137,3 +137,40 @@ body {
 	color: #fff;
 }
 
+/** odavde krece css za footer  **/
+.footer{
+      background: black;
+        width: 100%;
+}
+.footer ul, h4{
+  color:rgb(183, 183, 183);
+}
+.container{
+    width: 100%;
+}
+.naslovfooter{
+    text-align: center;
+    font-size: 18px;
+    color:black;
+    font-weight: bold;
+    text-align: center; 
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    padding: 10px 10px 0 5px;
+    margin: 15px;
+    background-color: red;
+    border-radius: 8px; 
+    -moz-border-radius: 8px; 
+    -webkit-border-radius: 8px; 
+
+     
+}
+.mapa{
+    padding-left: 15px;
+
+}
+
+}
+
+}
