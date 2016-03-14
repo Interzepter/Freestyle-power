@@ -1,6 +1,6 @@
 
 body {
-	background: url(../images/back1.jpg) fixed repeat ;
+	background: url(../images/back3.jpg) fixed repeat ;
 }
 
 footer {
@@ -8,7 +8,7 @@ footer {
   background-color: black;
 }
 .box1 h2, .box2 h2, .box3 h2 {
-	background: red;
+	background: #585858 ;
   margin-right: 55%;
   border-radius: 5px 5px 5px 5px;
   color: black;
@@ -41,13 +41,13 @@ footer {
 }
 
 .box2 {
-	background: url(../images/box/2.jpg) ;
+	background: url(../images/box/mare.jpg) no-repeat ;
 	color: white;
 	height: 450px;
 }
 
 .box3 {
-	background: url(../images/box/3.jpg) ;
+	background: url(../images/box/mare.jpg) no-repeat ;
 	color: white;
 	height: 450px;
 }
@@ -55,7 +55,7 @@ footer {
 .box1:hover, .box2:hover, .box3:hover {
 
 
-	background-color: #E00000;
+	background-color:white;
 	background-blend-mode: multiply;
 	color: white;
 	font-weight: bolder;
@@ -64,7 +64,7 @@ footer {
 
 
 .box1:hover > h2, .box2:hover > h2, .box3:hover > h2 {
-	background: black;
+	background: #A0A0A0 ;
   margin-right: 50%;
   border-radius: 5px 5px 5px 5px;
   color: white;
