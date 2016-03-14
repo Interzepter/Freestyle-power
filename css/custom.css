@@ -187,3 +187,7 @@ footer {
 .container {
   margin-bottom: 0px;
 }
+
+.section.group{
+  margin-top: 80px;
+}
