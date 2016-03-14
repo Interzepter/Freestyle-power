@@ -9,12 +9,12 @@ footer {
 }
 .box1 h2, .box2 h2, .box3 h2 {
 	background: red;
-    margin-right: 55%;
-    border-radius: 5px 5px 5px 5px;
-    color: black;
-    opacity: 0.7;
-    text-align: center;
-    font-weight: bold;
+  margin-right: 55%;
+  border-radius: 5px 5px 5px 5px;
+  color: black;
+  opacity: 0.7;
+  text-align: center;
+  font-weight: bold;
 }
 
 .box1 p, .box2 p, .box3 p {
@@ -24,13 +24,13 @@ footer {
 }
 
 .box1, .box2, .box3 {
-   -moz-border-radius-topleft: 10px;
-   -moz-border-radius-topright: 10px;
-   -moz-border-radius-bottomright: 0px;
-   -moz-border-radius-bottomleft: 0px;
-   -webkit-border-radius: 10px 10px 10px 0px;
-   border-radius: 10px 10px 10px 10px;
-   max-height: 350px;
+ -moz-border-radius-topleft: 10px;
+ -moz-border-radius-topright: 10px;
+ -moz-border-radius-bottomright: 0px;
+ -moz-border-radius-bottomleft: 0px;
+ -webkit-border-radius: 10px 10px 10px 0px;
+ border-radius: 10px 10px 10px 10px;
+ max-height: 350px;
 }
 
 .box1 {
@@ -65,19 +65,19 @@ footer {
 
 .box1:hover > h2, .box2:hover > h2, .box3:hover > h2 {
 	background: black;
-    margin-right: 50%;
-    border-radius: 5px 5px 5px 5px;
-    color: white;
-    font-weight: bolder;
-    text-align: center;
+  margin-right: 50%;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .box1:hover > p, .box2:hover > p, .box3:hover > p {
 	background: black;
-    border-radius: 5px 5px 5px 5px;
-    color: white;
-    font-weight: bolder;
-    opacity: 0.7;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  font-weight: bolder;
+  opacity: 0.7;
 }
 
 .featurette {
@@ -94,13 +94,13 @@ h2.featurette-heading {
 }
 
 .navbar-fixed-top {
-    min-height: 50px;
+  min-height: 50px;
 }
 
 .navbar-nav > li > a {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    line-height: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 60px;
 }
 
 .logo img{
@@ -113,8 +113,8 @@ h2.featurette-heading {
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff;
-    
+  color: #fff;
+  
 }
 
 .navbar-inverse .navbar-nav>.active>a{
@@ -133,15 +133,15 @@ h2.featurette-heading {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover{
-    color:#fff;
-    /*color:red;   samo slova crvena na hover*/
-    background-color: red;
-   -moz-border-radius-topleft: 10px;
-   -moz-border-radius-topright: 10px;
-   -moz-border-radius-bottomright: 0px;
-   -moz-border-radius-bottomleft: 0px;
-   -webkit-border-radius: 10px 10px 10px1 0px;
-   border-radius: 10px 10px 10px 10px;
+  color:#fff;
+  /*color:red;   samo slova crvena na hover*/
+  background-color: red;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-radius: 10px 10px 10px1 0px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .navbar-inverse .navbar-nav>li>a{
@@ -150,47 +150,47 @@ h2.featurette-heading {
 
 /** odavde krece css za footer  **/
 .footer{
-    background: black;
-   
-    width: 100%;
+  background: black;
+  
+  width: 100%;
 
 }
 .footer ul, h4{
   color:rgb(183, 183, 183);
 }
 .container{
-    width: 100%;
+  width: 100%;
 }
 .naslovfooter{
-    text-align: center;
-    font-size: 18px;
-    color:black;
-    font-weight: bold;
-    text-align: center; 
-    display: inline-block;
-    width: 100px;
-    height: 40px;
-    padding: 10px 10px 0 5px;
-    margin: 15px;
-    background-color: red;
-    border-radius: 8px; 
-    -moz-border-radius: 8px; 
-    -webkit-border-radius: 8px; 
+  text-align: center;
+  font-size: 18px;
+  color:black;
+  font-weight: bold;
+  text-align: center; 
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  padding: 10px 10px 0 5px;
+  margin: 15px;
+  background-color: red;
+  border-radius: 8px; 
+  -moz-border-radius: 8px; 
+  -webkit-border-radius: 8px; 
 
-     
+  
 }
 .mapa{
-    padding-left: 10px;
+  padding-left: 10px;
 
 }
 
 .naslovfooter {
-	  margin-left: 33%;
+ margin-left: 33%;
 }
 
 .pull-right {
-    margin-top: -45px;
-    margin-right: 10px;
+  margin-top: -45px;
+  margin-right: 10px;
 }
 
 .container {
